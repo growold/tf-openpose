@@ -2,6 +2,10 @@
 
 'Openpose' for human pose estimation have been implemented using Tensorflow. It also provides several variants that have made some changes to the network structure for **real-time processing on the CPU or low-power embedded devices.**
 
+## ------------------------------ 20180326 更新 ------------------------------ 
+#### 预测
+这边原作开源了自己训练的模型，这边可以直接借用，所以自己抽取了部分内容，写了预测函数[predict.md](https://github.com/mattzheng/tf-pose-estimation-applied/blob/master/predict/predict.md)
+
 
 **You can even run this on your macbook with descent FPS!**
 
@@ -74,8 +78,6 @@ $ cd models/graph/cmu
 $ bash download.sh
 ```
 
-### 预测
-这边原作开源了自己训练的模型，这边可以直接借用，所以自己抽取了部分内容，写了预测函数[predict.md](https://github.com/mattzheng/tf-pose-estimation-applied/blob/master/predict/predict.md)
 
 
 ### Inference Time
