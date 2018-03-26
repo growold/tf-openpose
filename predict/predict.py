@@ -114,12 +114,9 @@ if __name__ == '__main__':
     '''
         # 目前支持两种：mobilenet_thin以及cmu
         # model,还有那些model，一共六种，可见文档：/src/network.py
-        # 下载方式：
-        # $ cd models/graph/cmu
-        # $ bash download.sh
     '''
     
     # 保存
-    misc.imsave('/data1/research/matt/docker/tf_pose_estimation/tf-openpose/images/000000000569_1.jpg', images_p)
+    misc.imsave('/images/000000000569_1.jpg', images_p)
     
     
