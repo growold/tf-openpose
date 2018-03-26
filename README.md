@@ -7,6 +7,10 @@
 这边原作开源了自己训练的模型，这边可以直接借用，所以自己抽取了部分内容，写了预测函数[predict.md](https://github.com/mattzheng/tf-pose-estimation-applied/blob/master/predict/predict.md)
 
 
+
+----------
+
+
 **You can even run this on your macbook with descent FPS!**
 
 Original Repo(Caffe) : https://github.com/CMU-Perceptual-Computing-Lab/openpose
