@@ -36,3 +36,14 @@ python3 run.py --model=mobilenet_thin --resolution=432x368 --image=...
  - plot=False，返回一个内容：关键点信息
  - plot=True，返回两个内容：关键点信息+标点图片matrix
 
+
+
+
+
+**预测效率，用titanxP + CMU模型效率貌似也不高的样子：**
+
+```
+CPU times: user 1.42 s, sys: 5.24 s, total: 6.66 s
+Wall time: 6.25 s
+```
+
