@@ -74,6 +74,10 @@ $ cd models/graph/cmu
 $ bash download.sh
 ```
 
+### 预测
+这边原作开源了自己训练的模型，这边可以直接借用，所以自己抽取了部分内容，写了预测函数[predict.md](https://github.com/mattzheng/tf-pose-estimation-applied/blob/master/predict/predict.md)
+
+
 ### Inference Time
 
 | Dataset | Model              | Inference Time<br/>Macbook Pro i5 3.1G | Inference Time<br/>Jetson TX2  |
