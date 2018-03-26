@@ -3,7 +3,7 @@
 
 import sys
 import os
-sys.path.append('/data1/research/matt/docker/tf_pose_estimation/tf-openpose/src/')
+sys.path.append('tf_pose_estimation/tf-openpose/src/')
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
